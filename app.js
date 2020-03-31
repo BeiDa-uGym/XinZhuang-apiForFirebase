@@ -248,6 +248,7 @@ function addMember() {
     });   
     
     if (memberAlreadyExist) {
+      console.log("API:01 會員已存在");
       response.send("API:01 會員已存在");
     } else {
       // 呼叫寫入資料庫涵式
