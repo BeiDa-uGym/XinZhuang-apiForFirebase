@@ -20,7 +20,7 @@ console.log("Version:", version);
 // Firebase 設定
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./xinzhung-sport-center-firebase-adminsdk-i3y8g-33e45f814f.json");
+var serviceAccount = require("./xinzhuang-sports-center-firebase-adminsdk-f8077-3320d8e7dd.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
