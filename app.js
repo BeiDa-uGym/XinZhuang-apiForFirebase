@@ -20,11 +20,11 @@ console.log("Version:", version);
 // Firebase 設定
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./ugym-beida-firebase-adminsdk-2zjl2-89cf3f2614.json");
+var serviceAccount = require("./xinzhung-sport-center-firebase-adminsdk-i3y8g-33e45f814f.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://ugym-beida.firebaseio.com/"
+  databaseURL: "https://xinzhuang-sports-center.firebaseio.com/"
 });
 
 var database = admin.database(); // 初始資料庫
